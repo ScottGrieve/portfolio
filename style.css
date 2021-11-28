@@ -145,8 +145,10 @@ nav ul li + li + li + li {
     margin: 0;
   }
   .card-container {
-    display: flex;
-    width: 90vw;
+    display: flex; 
+    width: 100vw;
+    min-height: 100vh;
+    padding: 50px;
   }
   .panel {
     background-size: cover;
